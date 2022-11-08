@@ -1,0 +1,41 @@
+/*Default browser font size is 16.5px
+62.5% of 16px is 10px
+This way I can use rem in my styling
+And ensure the website is accessible - when user increases the size
+of the text, everything else will scale properly as well*/
+* {
+    font-size: 62.5%;
+}
+/*The REM unit represents the font-size of the root element
+    (e.g. the font-size of the <html>element). When used on the
+    font-size on this root element, it represents its initial value.*/
+
+#main-logo {
+    width: 250px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar{
+    display: flex; /*table*/
+    justify-content: center;
+}
+
+.nav-bar > ul {
+    list-style-type: none;
+    padding: 0em; /*What is em?*/ 
+    margin: 0em;
+}
+
+/*'em' is a CSS unit relative to the font size of the parent element, 
+while rem is a CSS unit relative to the font size of an html element. 
+Both of these are scalable units, meaning they give us the ability to 
+scale elements up and down, relative to a set value.*/
+.nav-bar > ul > li  {
+    display: inline;
+    margin: 2em;
+    font-size: 1.5rem;
+}

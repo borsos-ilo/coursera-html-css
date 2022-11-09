@@ -19,9 +19,9 @@ of the text, everything else will scale properly as well*/
     justify-content: center;
 }
 
-.nav-bar{
-    display: flex; /*table*/
-    justify-content: center;
+.nav-bar > ul {
+    display: flex; 
+    justify-content: space-evenly;
 }
 
 .nav-bar > ul {
@@ -34,8 +34,7 @@ of the text, everything else will scale properly as well*/
 while rem is a CSS unit relative to the font size of an html element. 
 Both of these are scalable units, meaning they give us the ability to 
 scale elements up and down, relative to a set value.*/
-.nav-bar > ul > li  {
-    display: inline;
+.nav-bar > ul > li > a  {
     margin: 3rem;
     font-size: 1.5rem;
 }
@@ -61,10 +60,14 @@ scale elements up and down, relative to a set value.*/
 }
 
 .minor-article > p {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .footer-div {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.footer-element > p {
+    font-size: 1rem;
 }

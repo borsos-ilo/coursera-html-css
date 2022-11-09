@@ -40,12 +40,20 @@ scale elements up and down, relative to a set value.*/
     font-size: 1.5rem;
 }
 
-.minor-news {
+.major-news {
     display: flex;
 }
 
-.minor-article {
-    display:inline;
+.main-article > h1 {
+    font-size: 3rem
+}
+
+.main-article > p {
+    font-size: 1.5rem
+}
+
+.minor-news {
+    display: flex;
 }
 
 .minor-article > h1 {
@@ -54,4 +62,9 @@ scale elements up and down, relative to a set value.*/
 
 .minor-article > p {
     font-size: 1rem;
+}
+
+.footer-div {
+    display: flex;
+    justify-content: space-around;
 }

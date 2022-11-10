@@ -11,7 +11,7 @@ of the text, everything else will scale properly as well*/
     font-size on this root element, it represents its initial value.*/
 
 #main-logo {
-    width: 250px;
+    width: 20rem;
 }
 
 .header {
@@ -27,7 +27,7 @@ html, body {
 
 .nav-bar > ul {
     display: flex; 
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .nav-bar > ul {

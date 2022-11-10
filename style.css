@@ -86,3 +86,7 @@ scale elements up and down, relative to a set value.*/
 .footer-element > p {
     font-size: 1.5rem;
 }
+
+#footer-logo {
+    width:3rem;
+}

@@ -7,9 +7,7 @@ of the text, everything else will scale properly as well*/
     font-size: 62.5%;
     font-family: "Apercu Pro", sans-serif; 
 }
-/*The REM unit represents the font-size of the root element
-    (e.g. the font-size of the <html>element). When used on the
-    font-size on this root element, it represents its initial value.*/
+
 
 h1 { 
     font-family: "Value Serif";
@@ -65,14 +63,10 @@ a:active {
 
 .nav-bar > ul {
     list-style-type: none;
-    padding: 0em; /*What is em?*/ 
+    padding: 0em; 
     margin: 0em;
 }
 
-/*'em' is a CSS unit relative to the font size of the parent element, 
-while rem is a CSS unit relative to the font size of an html element. 
-Both of these are scalable units, meaning they give us the ability to 
-scale elements up and down, relative to a set value.*/
 .nav-bar > ul > li > a  {
     margin: 3rem;
     font-size: 1.5rem;
@@ -110,13 +104,14 @@ scale elements up and down, relative to a set value.*/
 .minor-news {
     display: inline-flex;
     margin: 1rem;
-    background-color: #f2eee9;
     text-align: center;
 }
 
 .minor-article {
     flex: 1 100%;
     margin: 1rem;
+    background-color: #f2eee9;
+    border-radius: 10%;
 }
 
 .minor-article:hover {
@@ -129,6 +124,7 @@ scale elements up and down, relative to a set value.*/
 
 .minor-article > p {
     font-size: 1.2rem;
+    padding: 1rem;
 }
 
 .minor-article-pic {

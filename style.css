@@ -28,11 +28,39 @@ h1 {
 html, body {
     height: 100%;
     margin: 0;
+    background-color: #efc69b;
+}
+
+.nav-bar {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .nav-bar > ul {
     display: flex; 
     justify-content: space-between;
+}
+ 
+
+a {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #af1b3f;	
+}
+
+a:active {
+    text-decoration: none;
 }
 
 .nav-bar > ul {
@@ -86,12 +114,14 @@ scale elements up and down, relative to a set value.*/
 .footer-div {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .footer-element > p {
     font-size: 1.5rem;
+    justify-items: center;
 }
 
 #footer-logo {
-    width:3rem;
+    width:10rem;
 }

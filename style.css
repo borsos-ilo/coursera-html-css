@@ -5,10 +5,15 @@ And ensure the website is accessible - when user increases the size
 of the text, everything else will scale properly as well*/
 * {
     font-size: 62.5%;
+    font-family: "Heebo", sans-serif; 
 }
 /*The REM unit represents the font-size of the root element
     (e.g. the font-size of the <html>element). When used on the
     font-size on this root element, it represents its initial value.*/
+
+h1 { 
+    font-family: "IBM Plex Sans", sans-serif;
+}
 
 #main-logo {
     width: 20rem;

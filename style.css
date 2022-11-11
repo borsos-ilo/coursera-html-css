@@ -37,6 +37,9 @@ html, body {
 .nav-bar > ul {
     display: flex; 
     justify-content: space-between;
+    list-style-type: none;
+    padding: 0em; 
+    margin: 0em;
 }
  
 
@@ -55,25 +58,16 @@ a:visited {
 a:hover {
     text-decoration: none;
     color: #db5e35;	
+    text-shadow:1px 1px 1px #db5e35;
 }
 
 a:active {
     text-decoration: none;
 }
 
-.nav-bar > ul {
-    list-style-type: none;
-    padding: 0em; 
-    margin: 0em;
-}
-
-.nav-bar > ul > li > a  {
+.nav-text  {
+    font-size: 1.8rem;
     margin: 3rem;
-    font-size: 1.5rem;
-}
-
-.nav-text {
-    font-size: 1.3em;
 }
 
 .wrapper {
